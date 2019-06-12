@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '4p_ot0h%q8mpur&phf1=^mnsh-n7$5o7oet4@g7w1yjj7!gu+-'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -135,8 +135,8 @@ LOGIN_REDIRECT_URL = '/'
 DISQUS_WEBSITE_SHORTNAME = 'dstagram-glowingedge'
 SITE_ID = 1
 
-AWS_ACCESS_KEY_ID = 'AKIA6B22U2D4BPFLV2U2'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
 AWS_REGION = 'ap-northeast-2'
 AWS_STORAGE_BUCKET_NAME = 'dstagram-glowingedge'
 AWS_QUERYSTRING_AUTH = False    # http://sebatyler.github.io/2016/07/16/django-storages-seoul.html
